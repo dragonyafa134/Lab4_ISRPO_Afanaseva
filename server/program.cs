@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 
 string Fio = "Афанасьева Дн";
 string grupa = "ИСП-233";
-var T = DateTime.Now;
+var Time = DateTime.Now;
 
 Console.WriteLine("Выберите что хотите");
 Console.WriteLine("1 — Показать ФИО\n2 — Показать группу\n3 — Показать дату\n4 — Выход");
@@ -17,6 +17,6 @@ switch (num)
 {
     case 1: Console.WriteLine(Fio); break;
     case 2: Console.WriteLine(grupa); break;
-    case 3: Console.WriteLine(T); break;
+    case 3: Console.WriteLine(Time); break;
     case 4: break;
 }
